@@ -30,17 +30,19 @@ The project was implemented in a Python environment using Google Colab. The main
 5. Feature Importance Analysis: The feature_importances_ attribute of the trained Random Forest model was used to identify and visualize the top 10 most influential genes in the classification task.
 
 ## Results
-The trained model achieved a final accuracy of 81.48% on the unseen test set, demonstrating a strong ability to distinguish between cancer subtypes based on gene expression patterns.
+The trained model achieved a final accuracy of 87.3% on the unseen test set, demonstrating a strong ability to distinguish between cancer subtypes based on gene expression patterns.
 
 **Key Visualizations**
 
 **Confusion Matrix:** The matrix shows high performance on the diagonal, with most misclassifications occurring between the biologically similar Luminal A and Luminal B subtypes.
 
-<img width="640" height="547" alt="image" src="https://github.com/user-attachments/assets/aecc2091-c349-4b4c-9c8e-73fdf3232c1e" />
+<img width="640" height="547" alt="image" src="https://github.com/user-attachments/assets/50899f06-2d17-448d-af26-7d80ebfa2ead" />
+
 
 **Top 10 Important Genes:** The feature importance analysis identified several genes known to be critical in breast cancer biology, confirming that the model learned biologically relevant patterns.
 
-<img width="887" height="547" alt="image" src="https://github.com/user-attachments/assets/0ed64429-5902-4304-9e6c-5c56fb6eba1a" />
+<img width="872" height="547" alt="image" src="https://github.com/user-attachments/assets/37d489cb-d30e-4555-b6a7-8d1aa2a7db7e" />
+
 
 
 ## How to Run
